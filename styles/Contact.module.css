@@ -2,4 +2,39 @@
 
 .contact{
     display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    gap: 20px;
+}
+
+.jaeContact{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    border-radius: 20px;
+    height: 200px;
+    width: 150px;
+}
+
+.keejayContact{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    border-radius: 20px;
+    height: 200px;
+    width: 150px;   
+}
+
+
+.info {
+    text-align: center;
+    margin-top: 0px;
+    margin-bottom: 5px;
+}
+
+.links {
+    display:flex;
+    gap: 5px;
 }

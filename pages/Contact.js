@@ -6,8 +6,8 @@ const Contact = () => {
     return (  
         <div className={styles.contact}>
             <div className={styles.jaeContact}>
-            <div className={styles.logo}>
-                <Image src='/profile.png' width={100} height={100}/>
+                <div className={styles.logo}>
+                    <Image src='/profile.png' width={100} height={100}/>
                 </div>
                 <div>
                     <h3 className = {styles.info}>Jaechan Lee</h3>
@@ -22,7 +22,6 @@ const Contact = () => {
                             <Image src='/spotify.png' width={40} height={40}/>
                         </a>
                     </div>
-                 
                 </div>
                
             </div>
