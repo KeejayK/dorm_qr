@@ -2,8 +2,34 @@
 .spotify {
     display: flex;
     justify-content: center;
+    gap: 30px;
 }
 
-/* .test {
-    border: 5px solid red;
-} */
+
+.jaeContact {
+}
+
+.keejayContact {
+
+}
+
+.current {
+    margin: 0px;
+    background-color: #dee2ff;
+    border-radius: 20px;
+    height: 50px;
+    width: 150px;
+
+}
+
+.last {
+    margin: 0px;
+    background-color: #dee2ff;
+    border-radius: 20px;    
+    height: 50px;
+    width: 150px;
+}
+
+.lable {
+    margin-bottom: 0px;
+}
