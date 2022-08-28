@@ -10,23 +10,30 @@
 }
 
 .keejayContact {
-
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: space-between;
 }
 
 .current {
     margin: 0px;
-    background-color: #dee2ff;
+    /* background-color: #dee2ff; */
+    background-color: white;
+    /* background-color: #feeafa; */
     border-radius: 20px;
-    height: 50px;
+    height: 30px;
     width: 150px;
 
 }
 
 .last {
     margin: 0px;
-    background-color: #dee2ff;
+    /* background-color: #dee2ff; */
+    background-color: white;
+    /* background-color: #feeafa; */
     border-radius: 20px;    
-    height: 50px;
+    height: 30px;
     width: 150px;
 }
 

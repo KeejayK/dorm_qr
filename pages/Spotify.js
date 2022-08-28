@@ -5,17 +5,18 @@ const Spotify = () => {
     return ( 
         <div className={styles.spotify}>
             <div className={styles.jaeSpotify}>
-                <a className={styles.lable}>Currently Playing</a>
-                <h3 className={styles.current}>test 1</h3>
-                <a className={styles.lable}>Last Played</a>
-                <h3 className={styles.last}>test 1</h3>
+                <p className={styles.lable}>Currently Playing</p>
+                <p className={styles.current}>test 1</p>
+                <p className={styles.lable}>Last Played</p>
+                <p className={styles.last}>test 1</p>
+              
               
             </div>
             <div className={styles.keejaySpotify}>
-                <a className={styles.lable}>Currently Playing</a>
-                <h3 className={styles.current}>test 1</h3>
-                <a className={styles.lable}>Last Played</a>
-                <h3 className={styles.last}>test 1</h3>
+                <p className={styles.lable}>Currently Playing</p>
+                <p className={styles.current}>test 1</p>
+                <p className={styles.lable}>Last Played</p>
+                <p className={styles.last}>test 1</p>
               
             </div>
         </div>
