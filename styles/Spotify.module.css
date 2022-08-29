@@ -7,6 +7,10 @@
 
 
 .jaeContact {
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: space-between;
 }
 
 .keejayContact {
@@ -19,25 +23,87 @@
 .current {
     margin: 0px;
     /* background-color: #dee2ff; */
-    background-color: white;
+    /* background-color: white; */
     /* background-color: #feeafa; */
-    border-radius: 20px;
-    height: 30px;
+    /* border-radius: 20px; */
+    height: 60px;
     width: 150px;
     padding-left: 5px;
+    color: white;
+    border-radius: 20px;
+    font-weight: 600;
+    font-size: 14px;
+    border-color: #606d7e;
+    border-radius: 10px;
+    border-width: 2px;
+    border-style: solid;
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+
 }
+
+.currentText {
+    white-space: nowrap;
+    overflow: hidden;
+    height: 50px;
+    width: 90px;
+    margin-left: 5px;
+}
+
+.currentText span{
+    display: inline-block;
+    padding-left: 100%;
+    animation: currentText 5s linear infinite;
+}
+
+
+@keyframes currentText {
+    0% {
+      transform: translate(-100%, 0);
+    }
+  
+    100% {
+      transform: translate(0, 0);
+    }
+  }
+
+
 
 .last {
     margin: 0px;
     /* background-color: #dee2ff; */
-    background-color: white;
+    /* background-color: white; */
     /* background-color: #feeafa; */
-    border-radius: 20px;    
+    /* border-radius: 20px;     */
     height: 30px;
     width: 150px;
     padding-left: 5px;
+    color: white;
+
 }
 
 .lable {
     margin-bottom: 0px;
+    font-weight: 500;
+    font-size: 14px;
+    color: white;
 }
+
+
+.title {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-weight: 500;
+    /* color: #d6d2d2; */
+    color: white;
+   
+}
+
+.artist {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-weight: 500;
+    color: #728092;
+}
+

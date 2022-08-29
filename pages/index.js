@@ -5,6 +5,10 @@ import Contact from './Contact.js'
 import Spotify from './Spotify.js'
 import Message from './Message.js'
 
+
+
+
+
 export default function Home() {
   return (
     <div>
@@ -14,6 +18,7 @@ export default function Home() {
       <Contact/>
       <Spotify/>
       <Message/>
+      
     </div>
   )
 }
