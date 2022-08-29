@@ -6,7 +6,13 @@ const Spotify = () => {
         <div className={styles.spotify}>
 
             <div className={styles.jaeSpotify}>
-                <p className={styles.lable}>Now Playing</p>
+                <div className={styles.lableContainer}>
+                    <a href='https://www.snapchat.com/add/keejaykim?share_id=L1zGgiZmtcQ&locale=en-US'>
+                            <Image src='/spotify1.png' width={18} height={18}/>
+                    </a>
+                    <p className={styles.lable}>Now Playing</p>
+
+                </div>
                 <div className={styles.current}>
                     <div style = {{borderRadius: '10px', overflow: 'hidden'}}>
                         <Image src = '/paris_cover.jpg' layout={'fixed'} height={35} width={40}/>    
@@ -26,7 +32,13 @@ const Spotify = () => {
               
             </div>
             <div className={styles.keejaySpotify}>
-                <p className={styles.lable}>Now Playing</p>
+                <div className={styles.lableContainer}>
+                    <a href='https://www.snapchat.com/add/keejaykim?share_id=L1zGgiZmtcQ&locale=en-US'>
+                            <Image src='/spotify1.png' width={18} height={18}/>
+                    </a>
+                    <p className={styles.lable}>Now Playing</p>
+
+                </div>
                 <div className={styles.current}>
                     <div style = {{borderRadius: '10px', overflow: 'hidden'}}>
                         <Image src = '/paris_cover.jpg' layout={'fixed'} height={35} width={40}/>    

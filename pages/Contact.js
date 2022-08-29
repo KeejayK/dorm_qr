@@ -6,7 +6,7 @@ const Contact = () => {
     return (  
         <div className={styles.contact}>
             <div className={styles.jaeContact}>
-                <div className={styles.logo}>
+                <div className={styles.logo} style={{marginBottom: 0}}>
                     <Image src='/profile.png' width={100} height={100}/>
                 </div>
                 <div>
@@ -18,9 +18,6 @@ const Contact = () => {
                         <a href='https://www.snapchat.com/add/keejaykim?share_id=L1zGgiZmtcQ&locale=en-US'>
                             <Image src='/snapchat.png' width={40} height={40}/>
                         </a>
-                        <a href='https://www.snapchat.com/add/keejaykim?share_id=L1zGgiZmtcQ&locale=en-US'>
-                            <Image src='/spotify.png' width={40} height={40}/>
-                        </a>
                     </div>
                 </div>
                
@@ -29,8 +26,8 @@ const Contact = () => {
  
  
             <div className = {styles.keejayContact}>
-                <div className={styles.logo}>
-                <Image src='/profile.png' width={100} height={100}/>
+                <div className={styles.logo} >
+                    <Image src='/profile.png' width={100} height={100}/>
                 </div>
                 <div>
                     <h3 className = {styles.info}>Keejay Kim</h3>
@@ -41,11 +38,7 @@ const Contact = () => {
                         <a href='https://www.snapchat.com/add/keejaykim?share_id=L1zGgiZmtcQ&locale=en-US'>
                             <Image src='/snapchat.png' width={40} height={40}/>
                         </a>
-                        <a href='https://www.snapchat.com/add/keejaykim?share_id=L1zGgiZmtcQ&locale=en-US'>
-                            <Image src='/spotify.png' width={40} height={40}/>
-                        </a>
                     </div>
-                 
                 </div>
  
             </div>
