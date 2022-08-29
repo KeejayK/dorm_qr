@@ -1,7 +1,11 @@
 
-
+.main {
+    display:flex;
+    justify-content: center;
+}
 
 .messageContainer{
     display:flex;
+    flex-direction: column;
     justify-content: center;
 }
