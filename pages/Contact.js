@@ -4,8 +4,8 @@ import Image from 'next/image'
  
 const Contact = () => {
     return (  
-        <div className={styles.contact}>
-            <div className={styles.jaeContact}>
+        <div className={styles.contacts}>
+            <div className={styles.contact}>
                 <div className={styles.logo} style={{marginBottom: 0}}>
                     <Image src='/profile.png' width={100} height={100}/>
                 </div>
@@ -25,7 +25,7 @@ const Contact = () => {
  
  
  
-            <div className = {styles.keejayContact}>
+            <div className = {styles.contact}>
                 <div className={styles.logo} >
                     <Image src='/profile.png' width={100} height={100}/>
                 </div>
