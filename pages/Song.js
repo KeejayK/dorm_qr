@@ -13,13 +13,9 @@ const Song = ({img, title, artist, link}) => {
 
                 <div className={styles.text}>
                         <Marquee pauseOnHover={true} direction='left' gradient={false}>     
-                            <p className={styles.title}>
-                                <span>{title}</span>
-                            </p>
+                            <p className={styles.title}>{title}</p>
                         </Marquee>
-                        <p className={styles.artist}>
-                            <span>Lauv</span>
-                        </p>
+                        <p className={styles.artist}>Lauv</p>
                 </div>
 
             </div>
