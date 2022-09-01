@@ -1,9 +1,10 @@
 import Head from 'next/head'
 import styles from '../styles/Home.module.css'
 
-import Contact from './Contact.js'
-import Spotify from './Spotify.js'
-import Message from './Message.js'
+import Contact from '../comps/Contact.js'
+import Spotify from '../comps/Spotify.js'
+import Message from '../comps/Message.js'
+
 
 
 export default function Home() {
