@@ -5,9 +5,6 @@ import Contact from './Contact.js'
 import Spotify from './Spotify.js'
 import Message from './Message.js'
 
-import Marquee from 'react-fast-marquee'
-
-
 
 export default function Home() {
   return (
