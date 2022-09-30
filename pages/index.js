@@ -8,9 +8,8 @@ import Message from '../comps/Message.js'
 
 
 
-export default function Home(props) {
-  
-  console.log(props)
+export default function Home() {
+
   return (
     <div>
       <Head>

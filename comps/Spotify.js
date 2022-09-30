@@ -1,7 +1,7 @@
 import styles from '../styles/Spotify.module.css'
 import Image from 'next/image'
+import CurrentSong from './CurrentSong.js'
 import TopSongs from './TopSongs.js'
-
 
 
 
@@ -13,7 +13,7 @@ const Spotify = () => {
             <div className={styles.spotify}>
                 <div className={styles.lableContainer}>
                     <Image src='/spotify1.png' width={18} height={18}/>
-                    <p className={styles.lable}>Top Tracks This Month</p>
+                    <p className={styles.lable}>Last Played Song</p>
                     {/* list top tracks and top artists
                         also add link to compare music tastes
                     
@@ -23,7 +23,7 @@ const Spotify = () => {
                 </div>
 
                 <div className={styles.songs}>                      
-                    <TopSongs/>
+                    <CurrentSong/>
                 </div>
 
 
