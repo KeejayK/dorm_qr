@@ -1,14 +1,11 @@
-import styles from '../../styles/Spotify.module.css'
+import styles from '../styles/Spotify.module.css'
 import Image from 'next/image'
-import Current from './TopSongs.js'
+import TopSongs from './TopSongs.js'
 
 
 
 
-const Spotify = ({token}) => {
-    const URI = 'https://accounts.spotify.com/authorize?client_id=9fd3324981ad47478e9bd85ebe108d57&response_type=code&redirect_uri=http%3A%2F%2Flocalhost:3000%2Fcallback&scope=user-read-currently-playing%20user-top-read'
-
-
+const Spotify = () => {
 
     return ( 
 
@@ -26,7 +23,7 @@ const Spotify = ({token}) => {
                 </div>
 
                 <div className={styles.songs}>                      
-                    <Current token = {token}/>
+                    <TopSongs/>
                 </div>
 
 
