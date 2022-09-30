@@ -1,4 +1,4 @@
-import styles from '../styles/Spotify.module.css'
+import styles from '../../styles/Spotify.module.css'
 import Image from 'next/image'
 import Current from './TopSongs.js'
 

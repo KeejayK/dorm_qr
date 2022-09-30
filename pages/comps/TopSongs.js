@@ -2,25 +2,8 @@ import Song from './Song.js'
 import React, { useState, useEffect } from 'react';
 import axios from 'axios';
 
-// export const getStaticProps = async () => {
-//     TOKEN = process.env.TOKEN
-//     const res = await fetch('https://api.spotify.com/v1/me/player/currently-playing', {
-//         method: 'GET',
-//         headers: {'Authorization': `bearer ${TOKEN}`}
-//     })
 
-//     const posts = await res.json()
-//     console.log(posts)
-
-//     return {
-//         props: {
-//             posts,
-//         },
-//     }
-// }
-
-
-const JustPlayed = ({token}) => {
+const TopSongs= ({token}) => {
   const [data, setData] = useState(null)
   const [isLoading, setLoading] = useState(false)
   
@@ -66,5 +49,5 @@ const JustPlayed = ({token}) => {
 
 }
  
-export default JustPlayed;
+export default TopSongs;
 
