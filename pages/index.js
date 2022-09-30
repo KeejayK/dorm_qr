@@ -7,16 +7,26 @@ import Message from '../comps/Message.js'
 
 
 
-export default function Home() {
+export default function Home(props) {
   return (
     <div>
       <Head>
         <title>Oak Hall | 207</title>
       </Head>
       <Contact/>
-      <Spotify/>
+      <Spotify token = {props}/>
       <Message/>
     
     </div>
   )
+}
+
+export const getServerSideProps = async () => {
+  const token = process.env.TOKEN
+  console.log(token);
+  return {
+    props: {
+      token,
+    },
+  }
 }
