@@ -1,0 +1,24 @@
+
+.list {
+    border-color: #606d7e;
+    border-radius: 10px;
+    border-width: 2px;
+    border-style: solid;
+    height: 130px;
+    width: 150px;
+}
+
+
+.title {
+    font-size: 12px;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+}
+
+
+.artist {
+    padding-top: 0px;
+    margin-top: 0px;
+    font-size: 10px;
+}
+

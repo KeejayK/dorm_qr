@@ -25,6 +25,13 @@ const Spotify = () => {
                 <div className={styles.songs}>                      
                     <CurrentSong/>
                 </div>
+                <div className={styles.lableContainer}>
+                    <Image src='/spotify1.png' width={18} height={18}/>
+                    <p className={styles.lable}>Top Songs This Month</p>
+
+
+                </div>
+                <TopSongs/>
 
 
                 
