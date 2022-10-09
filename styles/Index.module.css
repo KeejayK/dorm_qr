@@ -14,5 +14,19 @@
   .hey {
     font-size: 90px;
     margin-bottom: 0px;
+    margin-top: 120px;
   } 
 
+
+  .arrowContainer{
+    display: flex;
+  }
+
+  .rightArrow {
+    width: 25px;
+    height: 25px;
+    border: 7px solid #ef626c;
+    border-left: 0;
+    border-top: 0;
+    transform: rotate(315deg);
+  }

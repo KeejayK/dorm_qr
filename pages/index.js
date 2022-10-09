@@ -37,10 +37,11 @@ export default function Home() {
   }
 
 
+
   return (
     <div className={styles.main}>
-      <Link href='/intro'>
-        <div>
+
+
           <motion.div
             initial="hidden"
             animate="visible"
@@ -60,8 +61,30 @@ export default function Home() {
               })}
             </div>
           </motion.div>
-        </div>
-      </Link>
+
+          <Link href='/intro'>
+            <motion.div
+              initial="hidden"
+              animate="visible"
+              variants={heyVariants}
+            >
+              <motion.div 
+                className={styles.arrowContainer}
+                transition={{ ease: "easeOut", duration: 1.5, repeat: Infinity }}
+                animate = {{x: ["-2px", "2px", "-2px"]}}
+              >
+                <div className={styles.rightArrow}/>
+                <div className={styles.rightArrow}/>
+                <div className={styles.rightArrow}/>
+              </motion.div>
+
+
+            </motion.div>
+
+
+
+
+          </Link>
     </div>
     
   )
