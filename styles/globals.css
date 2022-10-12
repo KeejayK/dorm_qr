@@ -9,7 +9,7 @@ body {
   /* background-color: #feeafa; */
   /* background-color: #1b202b; */
   background-color: #fffcf9;
-
+  overflow: hidden;
 }
 
 a {

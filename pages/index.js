@@ -1,8 +1,8 @@
 import { motion } from 'framer-motion';
 import styles from '../styles/Index.module.css'
 import Link from 'next/link'
+import Head from 'next/head'
 import AnimatedText from "../comps/AnimatedText";
-
 
 export default function Home() {
 
@@ -40,51 +40,49 @@ export default function Home() {
 
   return (
     <div className={styles.main}>
+      <Head>
+        <title>Oak Hall | 207</title>
+      </Head>
 
+      <motion.div
+        initial="hidden"
+        animate="visible"
+        variants={heyVariants}
+      >
+            <h1 className={styles.hey}>Hey!</h1>
+      </motion.div>
+      
+      <motion.div
+        initial="hidden"
+        animate="visible"
+        variants={textContainerVariants}
+      >
+        <div>
+          {placeholderText.map((item, index) => {
+            return <AnimatedText {...item} key={index} />;
+          })}
+        </div>
+      </motion.div>
 
-          <motion.div
-            initial="hidden"
-            animate="visible"
-            variants={heyVariants}
+      <Link href='/intro'>
+        <motion.div
+          initial="hidden"
+          animate="visible"
+          variants={heyVariants}
+        >
+          <motion.div 
+            className={styles.arrowContainer}
+            transition={{ ease: "easeOut", duration: 1.5, repeat: Infinity }}
+            animate = {{x: ["-2px", "2px", "-2px"]}}
           >
-                <h1 className={styles.hey}>Hey!</h1>
+            <div className={styles.rightArrow}/>
+            <div className={styles.rightArrow}/>
+            <div className={styles.rightArrow}/>
           </motion.div>
-          
-          <motion.div
-            initial="hidden"
-            animate="visible"
-            variants={textContainerVariants}
-          >
-            <div>
-              {placeholderText.map((item, index) => {
-                return <AnimatedText {...item} key={index} />;
-              })}
-            </div>
-          </motion.div>
+        </motion.div>
+      </Link>
+      
 
-          <Link href='/intro'>
-            <motion.div
-              initial="hidden"
-              animate="visible"
-              variants={heyVariants}
-            >
-              <motion.div 
-                className={styles.arrowContainer}
-                transition={{ ease: "easeOut", duration: 1.5, repeat: Infinity }}
-                animate = {{x: ["-2px", "2px", "-2px"]}}
-              >
-                <div className={styles.rightArrow}/>
-                <div className={styles.rightArrow}/>
-                <div className={styles.rightArrow}/>
-              </motion.div>
-
-
-            </motion.div>
-
-
-
-
-          </Link>
     </div>
     
   )

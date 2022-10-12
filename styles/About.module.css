@@ -1,0 +1,70 @@
+.main {
+    margin-top: 20px;
+    min-height: 2000px;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #352d39;
+    color: #fffcf9;
+}
+
+
+.content {
+    margin-top: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+
+.keejayContainer {
+    margin-top: 100px;
+    display: flex;
+    /* margin-left: 20px; */
+}
+
+.jaeContainer {
+    margin-top: 50px;
+    display: flex;
+    /* margin-left: 20px; */
+}
+
+
+.lableContainer {
+    margin-left: 20px;
+}
+
+.lableContainer p {
+    font-size: 17px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.name {
+    font-weight: 600;
+}
+
+
+.overlapGrid {
+    display: grid;
+    grid-template-areas: "overlay";
+  }
+  
+.overlapGrid > span {
+    grid-area: overlay;
+}
+
+.overlapGrid > div {
+    grid-area: overlay;
+}
+
+.overlapGrid > svg {
+    grid-area: overlay;
+}
+
+.svg {
+    position: relative;
+    /* margin-left: 100px; */
+}
